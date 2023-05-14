@@ -1,0 +1,55 @@
+.history-item-container {
+  display: flex;
+  align-items: center;
+  background-color: #f8fafc;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.logo-title-domain-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 16px;
+  margin-right: 32px;
+}
+
+.logo-img {
+  height: 20px;
+  width: 20px;
+  margin-right: 12px;
+}
+
+.time {
+  font-size: 12px;
+  font-family: 'Roboto';
+  color: #64748b;
+  font-weight: bold;
+  margin-right: 16px;
+  width: 100px;
+}
+.title {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #64748b;
+  margin-right: 16px;
+  font-weight: bold;
+}
+.domain-url {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #475569;
+}
+.delete-button {
+  background-color: transparent;
+  justify-content: flex-end;
+  align-self: center;
+  border: none;
+}
+.combined-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
